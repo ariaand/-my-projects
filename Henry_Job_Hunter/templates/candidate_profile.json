@@ -1,0 +1,82 @@
+{
+  "name": "Adriana Flores",
+  "title": "Accounting & Bookkeeping Specialist",
+  "email": "adriana@adrianaflores.com",
+  "phone": "+312-802-0811",
+  "location": "Memphis, TN",
+  "linkedin": "",
+  "summary_base": "Accounting and bookkeeping professional with 20+ years of experience supporting corporate and nonprofit organizations with accurate financial reporting, reconciliations, payroll, and grant accounting. Skilled in Microsoft Dynamics GP, QuickBooks Online, and Excel, with expertise in multi-entity accounting, month-end close, and financial operations. QBO Certified ProAdvisor and Xero Certified Advisor. Bilingual English/Spanish. Seeking remote accounting or bookkeeping roles.",
+  "certifications": [
+    "QuickBooks Online Certified ProAdvisor",
+    "Xero Certified Advisor"
+  ],
+  "education": [
+    {
+      "institution": "Robert Morris University",
+      "degree": "Business Administration"
+    }
+  ],
+  "languages": [
+    "English (Native)",
+    "Spanish (Fluent)"
+  ],
+  "core_competencies": [
+    "Full-Cycle Bookkeeping",
+    "Bank & Credit Card Reconciliations",
+    "Journal Entries & GL Adjustments",
+    "Grant & Contract Accounting",
+    "Accounts Payable / Accounts Receivable",
+    "Cleanup & Catch-Up Bookkeeping",
+    "Payroll Processing (Paylocity)",
+    "1099 Preparation & Vendor Management",
+    "Month-End & Year-End Close",
+    "Financial Reporting & Analysis",
+    "Audit Support",
+    "Multi-Entity Accounting",
+    "Microsoft Dynamics GP",
+    "QuickBooks Online (QBO)",
+    "Xero",
+    "Advanced Excel / Microsoft Office",
+    "Remote Collaboration",
+    "Bilingual: English / Spanish"
+  ],
+  "experience": [
+    {
+      "title": "Accountant",
+      "company": "Alliance Healthcare",
+      "location": "Memphis, TN",
+      "dates": "2022 – Present",
+      "bullets": [
+        "Perform full-cycle accounting using Microsoft Dynamics GP including journal entries, bank reconciliations, and month-end close.",
+        "Manage accounts payable and accounts receivable processes, vendor payments, and aging reports.",
+        "Allocate payroll expenses across multiple grants and funding sources ensuring compliance with grant requirements.",
+        "Prepare financial statements and support external audits and internal reporting.",
+        "Process vendor invoices with 100% on-time payment rate and resolve billing discrepancies."
+      ]
+    },
+    {
+      "title": "Accounting Clerk",
+      "company": "Wesley Living",
+      "location": "Memphis, TN",
+      "dates": "2020 – 2022",
+      "bullets": [
+        "Managed payroll processing for approximately 150 employees using Paylocity.",
+        "Prepared 1099 forms and resolved general ledger discrepancies.",
+        "Supported month-end close procedures and financial reporting.",
+        "Processed vendor invoices and maintained accounts payable with 100% on-time payment rate."
+      ]
+    },
+    {
+      "title": "Staff Accountant",
+      "company": "KIPP Collegiate",
+      "location": "Memphis, TN",
+      "dates": "2015 – 2019",
+      "bullets": [
+        "Performed full-cycle bookkeeping including reconciliations, transaction coding, and monthly financial reporting.",
+        "Prepared and submitted grant and contract invoices; maintained accounts receivable aging reports.",
+        "Reconciled general ledger accounts and supported month-end close and financial statement preparation.",
+        "Allocated payroll expenses across multiple grant-funded programs."
+      ]
+    }
+  ]
+}

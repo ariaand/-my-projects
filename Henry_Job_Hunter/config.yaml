@@ -1,0 +1,135 @@
+# Henry Job Hunter - Configuration
+# Edit this file to customize your job search
+
+candidate:
+  name: "Adriana Flores"
+  email: "adriana@adrianaflores.com"
+  phone: "+312-802-0811"
+  location: "Memphis, TN"
+  linkedin: ""  # Add your LinkedIn URL if desired
+
+search:
+  # Job titles to search for
+  target_titles:
+    - "Remote Bookkeeper"
+    - "Remote Accounting Specialist"
+    - "Remote Staff Accountant"
+    - "Remote Accountant"
+    - "Remote AR AP Specialist"
+    - "Remote Payroll Specialist"
+    - "Remote QuickBooks Bookkeeper"
+    - "Remote Xero Bookkeeper"
+    - "Remote Nonprofit Accountant"
+    - "Remote Grant Accountant"
+    - "Fractional Bookkeeper"
+    - "Bookkeeper Remote"
+    - "Staff Accountant Remote"
+    - "Accounting Specialist Remote"
+
+  # Keywords used when querying job boards
+  search_queries:
+    - "bookkeeper remote"
+    - "accountant remote"
+    - "QuickBooks bookkeeper remote"
+    - "Xero bookkeeper remote"
+    - "nonprofit accountant remote"
+    - "grant accountant remote"
+    - "payroll specialist remote"
+    - "AP AR specialist remote"
+    - "staff accountant remote"
+    - "accounting clerk remote"
+    - "fractional bookkeeper"
+
+  # Jobs containing ANY of these will be disqualified or score-penalized
+  blocked_keywords:
+    - "on-site only"
+    - "in-office required"
+    - "no remote"
+    - "CPA required"
+    - "CPA license required"
+    - "must be CPA"
+    - "commission only"
+    - "commission-only"
+    - "unpaid"
+    - "crypto"
+    - "cryptocurrency"
+    - "blockchain"
+    - "web3"
+    - "DeFi"
+    - "NFT"
+
+  # Bonus keywords — each one found in the job description adds to the score
+  preferred_keywords:
+    - "QuickBooks"
+    - "QBO"
+    - "QuickBooks Online"
+    - "Xero"
+    - "reconciliation"
+    - "bookkeeping"
+    - "month-end close"
+    - "accounts payable"
+    - "accounts receivable"
+    - "AP"
+    - "AR"
+    - "payroll"
+    - "grant accounting"
+    - "grant"
+    - "nonprofit"
+    - "non-profit"
+    - "general ledger"
+    - "GL"
+    - "journal entries"
+    - "1099"
+    - "financial reporting"
+    - "Microsoft Dynamics"
+    - "Dynamics GP"
+    - "Excel"
+    - "full-cycle"
+    - "full cycle"
+    - "flexible"
+    - "part-time"
+    - "contract"
+    - "fractional"
+    - "bilingual"
+    - "Spanish"
+    - "multi-entity"
+    - "catch-up"
+    - "cleanup"
+    - "year-end"
+    - "audit"
+    - "vendor management"
+    - "Paylocity"
+    - "work from home"
+    - "WFH"
+
+  # Minimum score to appear in the job tracker (0-100)
+  min_display_score: 50
+
+  # Minimum score to auto-generate tailored resume + cover letter
+  tailoring_threshold: 75
+
+  # Only show remote jobs
+  remote_only: true
+
+  # Max jobs to process per search run
+  max_jobs_per_run: 50
+
+  # Days to look back for new postings
+  days_back: 14
+
+output:
+  base_dir: "."
+  jobs_found_dir: "jobs_found"
+  resumes_dir: "tailored_resumes"
+  cover_letters_dir: "cover_letters"
+  notes_dir: "application_notes"
+  logs_dir: "logs"
+  tracker_file: "jobs_found/job_tracker.csv"
+
+api:
+  # Claude model for resume tailoring and cover letters
+  # Options: claude-opus-4-5, claude-sonnet-4-6, claude-haiku-4-5
+  anthropic_model: "claude-sonnet-4-6"
+  max_tokens: 4000
+  # Set to true to use Claude for enhanced job scoring (uses API credits)
+  use_ai_scoring: false
